@@ -33,7 +33,7 @@ public class Main {
         } else if (number == 2) {
             return true;
         } else {
-            for (int i = 2 + 1; i < number; i++) { //check if is divisible by any number beside 1 and itself
+            for (int i = 2 + 1; i < number; i++) { //check if is divisible by any number beside 1 and itself, in case of found any divisible will leave the loop
                 if (number % i == 0) {
                     return false;
                 }
