@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f71315d2-3aec-40c9-810a-785f2fec44aa" name="Changes" comment="This simple program is able to convert temperature between Celsius degrees and Fahrenheit degree.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M3_EX1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M3_EX1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperature.java" afterDir="false" />
-    </list>
+    <list default="true" id="f71315d2-3aec-40c9-810a-785f2fec44aa" name="Changes" comment="Adjusted the precision in float numbers." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660912902883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusted the precision in float numbers.">
+      <created>1660914931710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660914931710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This simple program is able to convert temperature between Celsius degrees and Fahrenheit degree." />
-    <option name="LAST_COMMIT_MESSAGE" value="This simple program is able to convert temperature between Celsius degrees and Fahrenheit degree." />
+    <MESSAGE value="Adjusted the precision in float numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted the precision in float numbers." />
   </component>
 </project>
