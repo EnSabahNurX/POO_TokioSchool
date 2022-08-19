@@ -27,7 +27,7 @@ public class Main {
                 try {
                     temp = Double.parseDouble(sc.nextLine());
                     System.out.println("\n" + temp + " ºF converted to Celsius is "
-                            + Temperature.getToCelsius(temp) + " ªC.");
+                            + String.format("%.2f", Temperature.getToCelsius(temp)) + " ºC.");
                     valid = true;
                 } catch (NumberFormatException e) {
                     System.out.println("\nSorry, this is not a valid degree. Please try again.\n");
@@ -39,7 +39,7 @@ public class Main {
                 try {
                     temp = Double.parseDouble(sc.nextLine());
                     System.out.println("\n" + temp + " ºC converted to Fahrenheit is "
-                            + Temperature.getToFahrenheit(temp) + " ªF.");
+                            + String.format("%.2f", Temperature.getToFahrenheit(temp)) + " ºF.");
                     valid = true;
                 } catch (NumberFormatException e) {
                     System.out.println("\nSorry, this is not a valid degree. Please try again.\n");

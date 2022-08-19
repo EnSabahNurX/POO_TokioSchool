@@ -5,11 +5,11 @@ public class Temperature {
     protected static int meltingPointF = 32;
 
     private static double toCelsius(double f2) {
-        return (f2 - 32) * 5 / 9;
+        return (f2 - 32) * 5.0 / 9.0;
     }
 
     private static double toFahrenheit(double c2) {
-        return (c2 * 9 / 5) + 32;
+        return (c2 * 9.0 / 5.0) + 32;
     }
 
     public static double getToCelsius(double f1) {
