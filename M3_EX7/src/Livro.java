@@ -23,7 +23,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "O livro com título " + this.titulo + " e ISBN " + this.isbn + " e autor " + this.autor + " tem " + this.numeroDePaginas + " páginas.";
+        return "\nO livro com título " + this.titulo + " e ISBN " + this.isbn + " e autor " + this.autor + " tem " + this.numeroDePaginas + " páginas.";
     }
 
     public String getIsbn() {
